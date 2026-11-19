@@ -54,6 +54,11 @@ class tool_lifecycle_generator extends testing_module_generator {
             "content" => "Content",
             "contenthtml" => "Content HTML",
         ],
+        "info" => [
+            "subject" => "Test Email",
+            "content" => "Content",
+            "contenthtml" => "Content HTML",
+        ],
         "createbackup" => [
             "maximumbackupspercron" => 10,
         ],

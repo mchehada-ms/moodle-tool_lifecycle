@@ -36,7 +36,7 @@ Feature: Add a workflow with an email step and test the interaction as a teacher
       | delay[number]    | 3                          |
       | delay[timeunit]  | days                       |
     And I press "Save changes"
-    And I select "Email Step" from the "tool_lifecycle-choose-step" singleselect
+    And I select "Email step (with opt-out)" from the "tool_lifecycle-choose-step" singleselect
     And I set the following fields to these values:
       | Instance name               | Email Step                  |
       | responsetimeout[number]     | 8                           |
